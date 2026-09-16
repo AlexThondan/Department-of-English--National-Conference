@@ -516,14 +516,16 @@ h2,
    RESOURCE PERSONS GRID & CARDS (COMPACT)
    ========================================= */
 .resource-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 18px;
   max-width: 980px;
   margin: 0 auto;
 }
 
 .resource-card {
+  width: 180px;
   background: #ffffff;
   border: 1px solid var(--border-light);
   border-radius: 10px;
@@ -944,11 +946,41 @@ h2,
     padding: 40px 0;
   }
 
-  .committee-card-narrow {
+  .committee-card-narrow,
+  .resource-card {
     width: 145px;
   }
 
-  .committee-photo-box {
+  .committee-photo-box,
+  .resource-photo-box {
     height: 150px;
+  }
+
+  .resource-grid,
+  .committee-grid {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .committee-card-narrow,
+  .resource-card {
+    width: 135px;
+  }
+
+  .committee-photo-box,
+  .resource-photo-box {
+    height: 140px;
+  }
+
+  .committee-person-name,
+  .resource-name {
+    font-size: 0.82rem;
+  }
+
+  .committee-person-dept,
+  .resource-designation,
+  .resource-affiliation {
+    font-size: 0.68rem;
   }
 }
