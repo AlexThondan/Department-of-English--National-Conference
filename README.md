@@ -13,7 +13,7 @@ This website hosts the official portal for the **National Conference on Graphic 
 - **Call For Papers**: Themes, Sub-themes & Submission Guidelines
 - **Resource Persons**: Keynote and invited speakers
 - **Important Dates & Registration**: Registration fees and timeline
-- **Advisory & Conference Committee**: Patrons, Chairs, Convenors & Organizers
+- **Advisory & Organizing Committee**: Patrons, Chairs, Convenors & Organizers
 - **Contact Information & Interactive Campus Map**
 
 ---
